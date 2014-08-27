@@ -11,27 +11,6 @@ var force = d3.layout.force()
     .charge(-100)
     .size([width, height]);
 
-// highlight related node
-function highlight(related) {
-}
-
-function get_related_courses(n, dependencies) {
-    return dependencies[n.index];
-}
-
-// map from course name to dependency name list
-function build_dependency(nodes, links) {
-    var map = {};
-    links.forEach(function(link) {
-        var index = link.source.index;
-        if (map[index] == null)
-            map[index] = [link.target];
-        else
-            map[index].push(link.target);
-    });
-    return map;
-}
-
 function run(error, json) {
     var linkedByIndex = {};
     json.links.forEach(function(d) {
@@ -47,9 +26,6 @@ function run(error, json) {
         .nodes(json.nodes)
         .links(json.links)
         .start();
-
-    // build dependency mapping
-    var dependencies = build_dependency(json.nodes, json.links);
 
     var link = svg.selectAll(".link")
         .data(json.links)
