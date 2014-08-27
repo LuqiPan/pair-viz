@@ -76,13 +76,13 @@ function run(error, json) {
     node.append("text")
         .attr("dx", 12)
         .attr("dy", ".35em")
-        .text(function(d) { return d.name });
+        .text(function(d) { return d.name.split("|")[0] });
 
     node.append("text")
         .attr("dx", 12)
         .attr("dy", "-1em")
         .attr("class", "hidden")
-        .text("Welcome");
+        .text(function(d) { return d.name.split("|")[1] });
 
     force.on("tick", function() {
         link.attr("x1", function(d) { return d.source.x; })

@@ -1,357 +1,357 @@
 {
   "nodes": [
     {
-      "name": "CSCI1230",
+      "name": "CSCI1230|Introduction to Computer Graphics",
       "course_name": "Introduction to Computer Graphics",
       "url": "http://cs.brown.edu/courses/csci1230.html"
     },
     {
-      "name": "CSCI1250",
+      "name": "CSCI1250|Introduction to Computer Animation",
       "course_name": "Introduction to Computer Animation",
       "url": "http://cs.brown.edu/courses/csci1250.html"
     },
     {
-      "name": "CSCI1260",
+      "name": "CSCI1260|Introductory Compiler Construction",
       "course_name": "Introductory Compiler Construction",
       "url": "http://cs.brown.edu/courses/csci1260.html"
     },
     {
-      "name": "CSCI1270",
+      "name": "CSCI1270|Database Management Systems",
       "course_name": "Database Management Systems",
       "url": "http://cs.brown.edu/courses/csci1270.html"
     },
     {
-      "name": "CSCI1280",
+      "name": "CSCI1280|Intermediate 3D Computer Animation",
       "course_name": "Intermediate 3D Computer Animation",
       "url": "http://cs.brown.edu/courses/csci1280.html"
     },
     {
-      "name": "CSCI1290",
+      "name": "CSCI1290|Computational Photography",
       "course_name": "Computational Photography",
       "url": "http://cs.brown.edu/courses/csci1290.html"
     },
     {
-      "name": "CSCI1300",
+      "name": "CSCI1300|Designing, Developing and Evaluating User Interfaces",
       "course_name": "Designing, Developing and Evaluating User Interfaces",
       "url": "http://cs.brown.edu/courses/csci1300.html"
     },
     {
-      "name": "CSCI1310",
+      "name": "CSCI1310|Fundamentals of Computer Systems",
       "course_name": "Fundamentals of Computer Systems",
       "url": "http://cs.brown.edu/courses/csci1310.html"
     },
     {
-      "name": "CSCI1320",
+      "name": "CSCI1320|Creating Modern Web Applications",
       "course_name": "Creating Modern Web Applications",
       "url": "http://cs.brown.edu/courses/csci1320.html"
     },
     {
-      "name": "CSCI1370",
+      "name": "CSCI1370|Virtual Reality Design for Science",
       "course_name": "Virtual Reality Design for Science",
       "url": "http://cs.brown.edu/courses/csci1370.html"
     },
     {
-      "name": "CSCI1380",
+      "name": "CSCI1380|Distributed Computer Systems",
       "course_name": "Distributed Computer Systems",
       "url": "http://cs.brown.edu/courses/csci1380.html"
     },
     {
-      "name": "CSCI1410",
-      "course_name": "Introduction to Artificial Intelligence",
+      "name": "CSCI1410|Applied Artifical Intelligence",
+      "course_name": "Applied Artifical Intelligence",
       "url": "http://cs.brown.edu/courses/csci1410.html"
     },
     {
-      "name": "CSCI1420",
+      "name": "CSCI1420|Introduction to Machine Learning",
       "course_name": "Introduction to Machine Learning",
       "url": "http://cs.brown.edu/courses/csci1420.html"
     },
     {
-      "name": "CSCI1430",
+      "name": "CSCI1430|Introduction to Computer Vision",
       "course_name": "Introduction to Computer Vision",
       "url": "http://cs.brown.edu/courses/csci1430.html"
     },
     {
-      "name": "CSCI1450",
+      "name": "CSCI1450|Introduction to Probability and Computing",
       "course_name": "Introduction to Probability and Computing",
       "url": "http://cs.brown.edu/courses/csci1450.html"
     },
     {
-      "name": "CSCI1460",
+      "name": "CSCI1460|Introduction to Computational Linguistics",
       "course_name": "Introduction to Computational Linguistics",
       "url": "http://cs.brown.edu/courses/csci1460.html"
     },
     {
-      "name": "CSCI1480",
+      "name": "CSCI1480|Building Intelligent Robots",
       "course_name": "Building Intelligent Robots",
       "url": "http://cs.brown.edu/courses/csci1480.html"
     },
     {
-      "name": "CSCI1510",
+      "name": "CSCI1510|Introduction to Cryptography and Computer Security",
       "course_name": "Introduction to Cryptography and Computer Security",
       "url": "http://cs.brown.edu/courses/csci1510.html"
     },
     {
-      "name": "CSCI1550",
+      "name": "CSCI1550|Probabilistic Methods in Computer Science",
       "course_name": "Probabilistic Methods in Computer Science",
       "url": "http://cs.brown.edu/courses/csci1550.html"
     },
     {
-      "name": "CSCI1570",
+      "name": "CSCI1570|Design and Analysis of Algorithms",
       "course_name": "Design and Analysis of Algorithms",
       "url": "http://cs.brown.edu/courses/csci1570.html"
     },
     {
-      "name": "CSCI1580",
+      "name": "CSCI1580|Information Retrieval and Web Search",
       "course_name": "Information Retrieval and Web Search",
       "url": "http://cs.brown.edu/courses/csci1580.html"
     },
     {
-      "name": "CSCI1600",
+      "name": "CSCI1600|Introduction to Embedded Real-time Software",
       "course_name": "Introduction to Embedded Real-time Software",
       "url": "http://cs.brown.edu/courses/csci1600.html"
     },
     {
-      "name": "CSCI1660",
+      "name": "CSCI1660|Introduction to Computer Systems Security",
       "course_name": "Introduction to Computer Systems Security",
       "url": "http://cs.brown.edu/courses/csci1660.html"
     },
     {
-      "name": "CSCI1670",
+      "name": "CSCI1670|Operating Systems",
       "course_name": "Operating Systems",
       "url": "http://cs.brown.edu/courses/csci1670.html"
     },
     {
-      "name": "CSCI1680",
+      "name": "CSCI1680|Computer Networks",
       "course_name": "Computer Networks",
       "url": "http://cs.brown.edu/courses/csci1680.html"
     },
     {
-      "name": "CSCI1730",
+      "name": "CSCI1730|Introduction to Programming Languages",
       "course_name": "Introduction to Programming Languages",
       "url": "http://cs.brown.edu/courses/csci1730.html"
     },
     {
-      "name": "CSCI1760",
+      "name": "CSCI1760|Introduction to Multiprocessor Synchronization",
       "course_name": "Introduction to Multiprocessor Synchronization",
       "url": "http://cs.brown.edu/courses/csci1760.html"
     },
     {
-      "name": "CSCI1780",
+      "name": "CSCI1780|Parallel and Distributed Programming",
       "course_name": "Parallel and Distributed Programming",
       "url": "http://cs.brown.edu/courses/csci1780.html"
     },
     {
-      "name": "CSCI1800",
+      "name": "CSCI1800|Cybersecurity and International Relations",
       "course_name": "Cybersecurity and International Relations",
       "url": "http://cs.brown.edu/courses/csci1800.html"
     },
     {
-      "name": "CSCI1810",
+      "name": "CSCI1810|Computational Molecular Biology",
       "course_name": "Computational Molecular Biology",
       "url": "http://cs.brown.edu/courses/csci1810.html"
     },
     {
-      "name": "CSCI1820",
+      "name": "CSCI1820|Algorithmic Foundations of Computational Biology",
       "course_name": "Algorithmic Foundations of Computational Biology",
       "url": "http://cs.brown.edu/courses/csci1820.html"
     },
     {
-      "name": "CSCI1950E",
+      "name": "CSCI1950E|Human-Robot Interaction Seminar",
       "course_name": "Human-Robot Interaction Seminar",
       "url": "http://cs.brown.edu/courses/csci1950-e.html"
     },
     {
-      "name": "CSCI1950H",
+      "name": "CSCI1950H|Computational Topology",
       "course_name": "Computational Topology",
       "url": "http://cs.brown.edu/courses/csci1950-h.html"
     },
     {
-      "name": "CSCI1950N",
+      "name": "CSCI1950N|2D Game Engines",
       "course_name": "2D Game Engines",
       "url": "http://cs.brown.edu/courses/csci1950-n.html"
     },
     {
-      "name": "CSCI1950U",
+      "name": "CSCI1950U|Topics in 3D Game Engine Development",
       "course_name": "Topics in 3D Game Engine Development",
       "url": "http://cs.brown.edu/courses/csci1950-u.html"
     },
     {
-      "name": "CSCI1950W",
+      "name": "CSCI1950W|",
       "course_name": null,
       "url": "http://cs.brown.edu/courses/csci1950w/"
     },
     {
-      "name": "CSCI1950X",
+      "name": "CSCI1950X|Software Foundations",
       "course_name": "Software Foundations",
       "url": "http://cs.brown.edu/courses/csci1950-x.html"
     },
     {
-      "name": "CSCI1950Y",
+      "name": "CSCI1950Y|Logic for Hackers",
       "course_name": "Logic for Hackers",
       "url": "http://cs.brown.edu/courses/csci1950-y.html"
     },
     {
-      "name": "CSCI1951A",
+      "name": "CSCI1951A|Introduction to Data Science",
       "course_name": "Introduction to Data Science",
       "url": "http://cs.brown.edu/courses/csci1951-a.html"
     },
     {
-      "name": "CSCI1951B",
+      "name": "CSCI1951B|Virtual Citizens or Subjects? The Global Battle Over Governing Your Internet",
       "course_name": "Virtual Citizens or Subjects? The Global Battle Over Governing Your Internet",
       "url": "http://cs.brown.edu/courses/csci1951-b.html"
     },
     {
-      "name": "CSCI1951C",
+      "name": "CSCI1951C|Designing Humanity Centered Robets",
       "course_name": "Designing Humanity Centered Robets",
       "url": "http://cs.brown.edu/courses/csci1951-c.html"
     },
     {
-      "name": "CSCI1971",
+      "name": "CSCI1971|Independent Study in 2D Game Engines",
       "course_name": "Independent Study in 2D Game Engines",
       "url": "http://cs.brown.edu/courses/csci1971.html"
     },
     {
-      "name": "CSCI2050T",
+      "name": "CSCI2050T|",
       "url": null
     },
     {
-      "name": "CSCI2240",
+      "name": "CSCI2240|Interactive Computer Graphics",
       "course_name": "Interactive Computer Graphics",
       "url": "http://cs.brown.edu/courses/csci2240.html"
     },
     {
-      "name": "CSCI2270",
+      "name": "CSCI2270|Topics in Database Management",
       "course_name": "Topics in Database Management",
       "url": "http://cs.brown.edu/courses/csci2270.html"
     },
     {
-      "name": "CSCI2300",
+      "name": "CSCI2300|Human-Computer Interaction Seminar",
       "course_name": "Human-Computer Interaction Seminar",
       "url": "http://cs.brown.edu/courses/csci2300.html"
     },
     {
-      "name": "CSCI2310",
+      "name": "CSCI2310|Human Factors and User Interface Design",
       "course_name": "Human Factors and User Interface Design",
       "url": "http://cs.brown.edu/courses/csci2310.html"
     },
     {
-      "name": "CSCI2330",
+      "name": "CSCI2330|Programming Environments",
       "course_name": "Programming Environments",
       "url": "http://cs.brown.edu/courses/csci2330.html"
     },
     {
-      "name": "CSCI2370",
+      "name": "CSCI2370|Interdisciplinary Scientific Visualization",
       "course_name": "Interdisciplinary Scientific Visualization",
       "url": "http://cs.brown.edu/courses/csci2370.html"
     },
     {
-      "name": "CSCI2380",
+      "name": "CSCI2380|",
       "url": null
     },
     {
-      "name": "CSCI2410",
+      "name": "CSCI2410|Statistical Models in Natural-Language Understanding",
       "course_name": "Statistical Models in Natural-Language Understanding",
       "url": "http://cs.brown.edu/courses/csci2410.html"
     },
     {
-      "name": "CSCI2420",
+      "name": "CSCI2420|Probabilistic Graphical Models",
       "course_name": "Probabilistic Graphical Models",
       "url": "http://cs.brown.edu/courses/csci2420.html"
     },
     {
-      "name": "CSCI2440",
+      "name": "CSCI2440|Topics in Game-Theoretic Artificial Intelligence",
       "course_name": "Topics in Game-Theoretic Artificial Intelligence",
       "url": "http://cs.brown.edu/courses/csci2440.html"
     },
     {
-      "name": "CSCI2500A",
+      "name": "CSCI2500A|Advanced Algorithms",
       "course_name": "Advanced Algorithms",
       "url": "http://cs.brown.edu/courses/csci2500-a.html"
     },
     {
-      "name": "CSCI2500B",
+      "name": "CSCI2500B|Optimization Algorithms for Planar Graphs",
       "course_name": "Optimization Algorithms for Planar Graphs",
       "url": "http://cs.brown.edu/courses/csci2500-b.html"
     },
     {
-      "name": "CSCI2510",
+      "name": "CSCI2510|Approximation Algorithms",
       "course_name": "Approximation Algorithms",
       "url": "http://cs.brown.edu/courses/csci2510.html"
     },
     {
-      "name": "CSCI2531",
+      "name": "CSCI2531|Internet and Web Algorithms",
       "course_name": "Internet and Web Algorithms",
       "url": "http://cs.brown.edu/courses/csci2531.html"
     },
     {
-      "name": "CSCI2540",
+      "name": "CSCI2540|Advanced Probabilistic Methods in Computer Science",
       "course_name": "Advanced Probabilistic Methods in Computer Science",
       "url": "http://cs.brown.edu/courses/csci2540.html"
     },
     {
-      "name": "CSCI2580",
+      "name": "CSCI2580|Solving Hard Problems in Combinatorial Optimization: Theory and Systems",
       "course_name": "Solving Hard Problems in Combinatorial Optimization: Theory and Systems",
       "url": "http://cs.brown.edu/courses/csci2580.html"
     },
     {
-      "name": "CSCI2590",
+      "name": "CSCI2590|Advanced Topics in Cryptography",
       "course_name": "Advanced Topics in Cryptography",
       "url": "http://cs.brown.edu/courses/csci2590.html"
     },
     {
-      "name": "CSCI2730",
+      "name": "CSCI2730|Programming Language Theory",
       "course_name": "Programming Language Theory",
       "url": "http://cs.brown.edu/courses/csci2730.html"
     },
     {
-      "name": "CSCI2750",
+      "name": "CSCI2750|Topics in Parallel & Distributed Computing",
       "course_name": "Topics in Parallel & Distributed Computing",
       "url": "http://cs.brown.edu/courses/csci2750.html"
     },
     {
-      "name": "CSCI2820",
+      "name": "CSCI2820|Medical Bioinformatics",
       "course_name": "Medical Bioinformatics",
       "url": "http://cs.brown.edu/courses/csci2820.html"
     },
     {
-      "name": "CSCI2950T",
+      "name": "CSCI2950T|Topics in Distributed Databases & Systems",
       "course_name": "Topics in Distributed Databases & Systems",
       "url": "http://cs.brown.edu/courses/csci2950-t.html"
     },
     {
-      "name": "CSCI2950U",
+      "name": "CSCI2950U|Special Topics on Networking and Distributed Systems",
       "course_name": "Special Topics on Networking and Distributed Systems",
       "url": "http://cs.brown.edu/courses/csci2950-u.html"
     },
     {
-      "name": "CSCI2951F",
+      "name": "CSCI2951F|Learning and Sequential Decision Making",
       "course_name": "Learning and Sequential Decision Making",
       "url": "http://cs.brown.edu/courses/csci2951-f.html"
     },
     {
-      "name": "CSCI2951K",
+      "name": "CSCI2951K|Topics in Grounded Language for Robotics",
       "course_name": "Topics in Grounded Language for Robotics",
       "url": "http://cs.brown.edu/courses/csci2951-k.html"
     },
     {
-      "name": "CSCI2951P",
+      "name": "CSCI2951P|Human-Robot Interaction Seminar",
       "course_name": "Human-Robot Interaction Seminar",
       "url": "http://cs.brown.edu/courses/csci2951-p.html"
     },
     {
-      "name": "ENGN1630",
+      "name": "ENGN1630|",
       "url": "http://www.engin.brown.edu/courses/EN163/"
     },
     {
-      "name": "ENGN1640",
+      "name": "ENGN1640|",
       "url": "http://www.lems.brown.edu/cad/coursei2956-fs/EN164/"
     },
     {
-      "name": "ENGN2910A",
+      "name": "ENGN2910A|",
       "url": null
     },
     {
-      "name": "ENGN2911X",
+      "name": "ENGN2911X|",
       "url": null
     }
   ],

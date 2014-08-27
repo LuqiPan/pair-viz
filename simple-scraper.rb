@@ -39,19 +39,19 @@ end
 def get_nodes
   $node_info.map do |course_number, course_url|
     if (course_url.nil? || course_url.empty? || course_url.include?("http://"))
-      {name: course_number, url: course_url}
+      {name: "#{course_number}|", url: course_url}
     else
       url = DOMAIN + course_url
       html = Nokogiri::HTML(HTTParty.get(url))
       course_name = html.css('h2').children.first.andand.content
-      {name: course_number, course_name: course_name, url: url}
+      {name: "#{course_number}|#{course_name}", course_name: course_name, url: url}
     end
   end.select { |e| !e.nil? }.sort_by { |e| e[:name] }
 end
 
 def get_node_indices(nodes)
   node_indices = {}
-  nodes.each_with_index { |node, index| node_indices[node[:name]] = index }
+  nodes.each_with_index { |node, index| node_indices[node[:name].split("|")[0]] = index }
   node_indices
 end
 
@@ -82,6 +82,5 @@ pairs_hash = cs_pairs_hash.merge(eng_pairs_hash)
 nodes = get_nodes
 node_indices = get_node_indices(nodes)
 edges = get_edges(pairs_hash, node_indices)
-binding.pry
 
 File.open('pairs.json', 'w') { |file| file.write(JSON.pretty_generate(nodes: nodes, links: edges)) }
