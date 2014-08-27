@@ -1,229 +1,363 @@
 {
   "nodes": [
     {
-      "name": "CSCI1230"
+      "name": "CSCI1230",
+      "course_name": "Introduction to Computer Graphics",
+      "url": "http://cs.brown.edu/courses/csci1230.html"
     },
     {
-      "name": "CSCI1250"
+      "name": "CSCI1250",
+      "course_name": "Introduction to Computer Animation",
+      "url": "http://cs.brown.edu/courses/csci1250.html"
     },
     {
-      "name": "CSCI1260"
+      "name": "CSCI1260",
+      "course_name": "Introductory Compiler Construction",
+      "url": "http://cs.brown.edu/courses/csci1260.html"
     },
     {
-      "name": "CSCI1270"
+      "name": "CSCI1270",
+      "course_name": "Database Management Systems",
+      "url": "http://cs.brown.edu/courses/csci1270.html"
     },
     {
-      "name": "CSCI1280"
+      "name": "CSCI1280",
+      "course_name": "Intermediate 3D Computer Animation",
+      "url": "http://cs.brown.edu/courses/csci1280.html"
     },
     {
-      "name": "CSCI1290"
+      "name": "CSCI1290",
+      "course_name": "Computational Photography",
+      "url": "http://cs.brown.edu/courses/csci1290.html"
     },
     {
-      "name": "CSCI1300"
+      "name": "CSCI1300",
+      "course_name": "Designing, Developing and Evaluating User Interfaces",
+      "url": "http://cs.brown.edu/courses/csci1300.html"
     },
     {
-      "name": "CSCI1310"
+      "name": "CSCI1310",
+      "course_name": "Fundamentals of Computer Systems",
+      "url": "http://cs.brown.edu/courses/csci1310.html"
     },
     {
-      "name": "CSCI1320"
+      "name": "CSCI1320",
+      "course_name": "Creating Modern Web Applications",
+      "url": "http://cs.brown.edu/courses/csci1320.html"
     },
     {
-      "name": "CSCI1370"
+      "name": "CSCI1370",
+      "course_name": "Virtual Reality Design for Science",
+      "url": "http://cs.brown.edu/courses/csci1370.html"
     },
     {
-      "name": "CSCI1380"
+      "name": "CSCI1380",
+      "course_name": "Distributed Computer Systems",
+      "url": "http://cs.brown.edu/courses/csci1380.html"
     },
     {
-      "name": "CSCI1410"
+      "name": "CSCI1410",
+      "course_name": "Introduction to Artificial Intelligence",
+      "url": "http://cs.brown.edu/courses/csci1410.html"
     },
     {
-      "name": "CSCI1420"
+      "name": "CSCI1420",
+      "course_name": "Introduction to Machine Learning",
+      "url": "http://cs.brown.edu/courses/csci1420.html"
     },
     {
-      "name": "CSCI1430"
+      "name": "CSCI1430",
+      "course_name": "Introduction to Computer Vision",
+      "url": "http://cs.brown.edu/courses/csci1430.html"
     },
     {
-      "name": "CSCI1450"
+      "name": "CSCI1450",
+      "course_name": "Introduction to Probability and Computing",
+      "url": "http://cs.brown.edu/courses/csci1450.html"
     },
     {
-      "name": "CSCI1460"
+      "name": "CSCI1460",
+      "course_name": "Introduction to Computational Linguistics",
+      "url": "http://cs.brown.edu/courses/csci1460.html"
     },
     {
-      "name": "CSCI1480"
+      "name": "CSCI1480",
+      "course_name": "Building Intelligent Robots",
+      "url": "http://cs.brown.edu/courses/csci1480.html"
     },
     {
-      "name": "CSCI1510"
+      "name": "CSCI1510",
+      "course_name": "Introduction to Cryptography and Computer Security",
+      "url": "http://cs.brown.edu/courses/csci1510.html"
     },
     {
-      "name": "CSCI1550"
+      "name": "CSCI1550",
+      "course_name": "Probabilistic Methods in Computer Science",
+      "url": "http://cs.brown.edu/courses/csci1550.html"
     },
     {
-      "name": "CSCI1570"
+      "name": "CSCI1570",
+      "course_name": "Design and Analysis of Algorithms",
+      "url": "http://cs.brown.edu/courses/csci1570.html"
     },
     {
-      "name": "CSCI1580"
+      "name": "CSCI1580",
+      "course_name": "Information Retrieval and Web Search",
+      "url": "http://cs.brown.edu/courses/csci1580.html"
     },
     {
-      "name": "CSCI1600"
+      "name": "CSCI1600",
+      "course_name": "Introduction to Embedded Real-time Software",
+      "url": "http://cs.brown.edu/courses/csci1600.html"
     },
     {
-      "name": "CSCI1660"
+      "name": "CSCI1660",
+      "course_name": "Introduction to Computer Systems Security",
+      "url": "http://cs.brown.edu/courses/csci1660.html"
     },
     {
-      "name": "CSCI1670"
+      "name": "CSCI1670",
+      "course_name": "Operating Systems",
+      "url": "http://cs.brown.edu/courses/csci1670.html"
     },
     {
-      "name": "CSCI1680"
+      "name": "CSCI1680",
+      "course_name": "Computer Networks",
+      "url": "http://cs.brown.edu/courses/csci1680.html"
     },
     {
-      "name": "CSCI1730"
+      "name": "CSCI1730",
+      "course_name": "Introduction to Programming Languages",
+      "url": "http://cs.brown.edu/courses/csci1730.html"
     },
     {
-      "name": "CSCI1760"
+      "name": "CSCI1760",
+      "course_name": "Introduction to Multiprocessor Synchronization",
+      "url": "http://cs.brown.edu/courses/csci1760.html"
     },
     {
-      "name": "CSCI1780"
+      "name": "CSCI1780",
+      "course_name": "Parallel and Distributed Programming",
+      "url": "http://cs.brown.edu/courses/csci1780.html"
     },
     {
-      "name": "CSCI1800"
+      "name": "CSCI1800",
+      "course_name": "Cybersecurity and International Relations",
+      "url": "http://cs.brown.edu/courses/csci1800.html"
     },
     {
-      "name": "CSCI1810"
+      "name": "CSCI1810",
+      "course_name": "Computational Molecular Biology",
+      "url": "http://cs.brown.edu/courses/csci1810.html"
     },
     {
-      "name": "CSCI1820"
+      "name": "CSCI1820",
+      "course_name": "Algorithmic Foundations of Computational Biology",
+      "url": "http://cs.brown.edu/courses/csci1820.html"
     },
     {
-      "name": "CSCI1950E"
+      "name": "CSCI1950E",
+      "course_name": "Human-Robot Interaction Seminar",
+      "url": "http://cs.brown.edu/courses/csci1950-e.html"
     },
     {
-      "name": "CSCI1950H"
+      "name": "CSCI1950H",
+      "course_name": "Computational Topology",
+      "url": "http://cs.brown.edu/courses/csci1950-h.html"
     },
     {
-      "name": "CSCI1950N"
+      "name": "CSCI1950N",
+      "course_name": "2D Game Engines",
+      "url": "http://cs.brown.edu/courses/csci1950-n.html"
     },
     {
-      "name": "CSCI1950U"
+      "name": "CSCI1950U",
+      "course_name": "Topics in 3D Game Engine Development",
+      "url": "http://cs.brown.edu/courses/csci1950-u.html"
     },
     {
-      "name": "CSCI1950W"
+      "name": "CSCI1950W",
+      "course_name": null,
+      "url": "http://cs.brown.edu/courses/csci1950w/"
     },
     {
-      "name": "CSCI1950X"
+      "name": "CSCI1950X",
+      "course_name": "Software Foundations",
+      "url": "http://cs.brown.edu/courses/csci1950-x.html"
     },
     {
-      "name": "CSCI1950Y"
+      "name": "CSCI1950Y",
+      "course_name": "Logic for Hackers",
+      "url": "http://cs.brown.edu/courses/csci1950-y.html"
     },
     {
-      "name": "CSCI1951A"
+      "name": "CSCI1951A",
+      "course_name": "Introduction to Data Science",
+      "url": "http://cs.brown.edu/courses/csci1951-a.html"
     },
     {
-      "name": "CSCI1951B"
+      "name": "CSCI1951B",
+      "course_name": "Virtual Citizens or Subjects? The Global Battle Over Governing Your Internet",
+      "url": "http://cs.brown.edu/courses/csci1951-b.html"
     },
     {
-      "name": "CSCI1951C"
+      "name": "CSCI1951C",
+      "course_name": "Designing Humanity Centered Robets",
+      "url": "http://cs.brown.edu/courses/csci1951-c.html"
     },
     {
-      "name": "CSCI1971"
+      "name": "CSCI1971",
+      "course_name": "Independent Study in 2D Game Engines",
+      "url": "http://cs.brown.edu/courses/csci1971.html"
     },
     {
-      "name": "CSCI2050T"
+      "name": "CSCI2050T",
+      "url": null
     },
     {
-      "name": "CSCI2240"
+      "name": "CSCI2240",
+      "course_name": "Interactive Computer Graphics",
+      "url": "http://cs.brown.edu/courses/csci2240.html"
     },
     {
-      "name": "CSCI2270"
+      "name": "CSCI2270",
+      "course_name": "Topics in Database Management",
+      "url": "http://cs.brown.edu/courses/csci2270.html"
     },
     {
-      "name": "CSCI2300"
+      "name": "CSCI2300",
+      "course_name": "Human-Computer Interaction Seminar",
+      "url": "http://cs.brown.edu/courses/csci2300.html"
     },
     {
-      "name": "CSCI2310"
+      "name": "CSCI2310",
+      "course_name": "Human Factors and User Interface Design",
+      "url": "http://cs.brown.edu/courses/csci2310.html"
     },
     {
-      "name": "CSCI2330"
+      "name": "CSCI2330",
+      "course_name": "Programming Environments",
+      "url": "http://cs.brown.edu/courses/csci2330.html"
     },
     {
-      "name": "CSCI2370"
+      "name": "CSCI2370",
+      "course_name": "Interdisciplinary Scientific Visualization",
+      "url": "http://cs.brown.edu/courses/csci2370.html"
     },
     {
-      "name": "CSCI2380"
+      "name": "CSCI2380",
+      "url": null
     },
     {
-      "name": "CSCI2410"
+      "name": "CSCI2410",
+      "course_name": "Statistical Models in Natural-Language Understanding",
+      "url": "http://cs.brown.edu/courses/csci2410.html"
     },
     {
-      "name": "CSCI2420"
+      "name": "CSCI2420",
+      "course_name": "Probabilistic Graphical Models",
+      "url": "http://cs.brown.edu/courses/csci2420.html"
     },
     {
-      "name": "CSCI2440"
+      "name": "CSCI2440",
+      "course_name": "Topics in Game-Theoretic Artificial Intelligence",
+      "url": "http://cs.brown.edu/courses/csci2440.html"
     },
     {
-      "name": "CSCI2500A"
+      "name": "CSCI2500A",
+      "course_name": "Advanced Algorithms",
+      "url": "http://cs.brown.edu/courses/csci2500-a.html"
     },
     {
-      "name": "CSCI2500B"
+      "name": "CSCI2500B",
+      "course_name": "Optimization Algorithms for Planar Graphs",
+      "url": "http://cs.brown.edu/courses/csci2500-b.html"
     },
     {
-      "name": "CSCI2510"
+      "name": "CSCI2510",
+      "course_name": "Approximation Algorithms",
+      "url": "http://cs.brown.edu/courses/csci2510.html"
     },
     {
-      "name": "CSCI2531"
+      "name": "CSCI2531",
+      "course_name": "Internet and Web Algorithms",
+      "url": "http://cs.brown.edu/courses/csci2531.html"
     },
     {
-      "name": "CSCI2540"
+      "name": "CSCI2540",
+      "course_name": "Advanced Probabilistic Methods in Computer Science",
+      "url": "http://cs.brown.edu/courses/csci2540.html"
     },
     {
-      "name": "CSCI2580"
+      "name": "CSCI2580",
+      "course_name": "Solving Hard Problems in Combinatorial Optimization: Theory and Systems",
+      "url": "http://cs.brown.edu/courses/csci2580.html"
     },
     {
-      "name": "CSCI2590"
+      "name": "CSCI2590",
+      "course_name": "Advanced Topics in Cryptography",
+      "url": "http://cs.brown.edu/courses/csci2590.html"
     },
     {
-      "name": "CSCI2730"
+      "name": "CSCI2730",
+      "course_name": "Programming Language Theory",
+      "url": "http://cs.brown.edu/courses/csci2730.html"
     },
     {
-      "name": "CSCI2750"
+      "name": "CSCI2750",
+      "course_name": "Topics in Parallel & Distributed Computing",
+      "url": "http://cs.brown.edu/courses/csci2750.html"
     },
     {
-      "name": "CSCI2820"
+      "name": "CSCI2820",
+      "course_name": "Medical Bioinformatics",
+      "url": "http://cs.brown.edu/courses/csci2820.html"
     },
     {
-      "name": "CSCI2950T"
+      "name": "CSCI2950T",
+      "course_name": "Topics in Distributed Databases & Systems",
+      "url": "http://cs.brown.edu/courses/csci2950-t.html"
     },
     {
-      "name": "CSCI2950U"
+      "name": "CSCI2950U",
+      "course_name": "Special Topics on Networking and Distributed Systems",
+      "url": "http://cs.brown.edu/courses/csci2950-u.html"
     },
     {
-      "name": "CSCI2951F"
+      "name": "CSCI2951F",
+      "course_name": "Learning and Sequential Decision Making",
+      "url": "http://cs.brown.edu/courses/csci2951-f.html"
     },
     {
-      "name": "CSCI2951K"
+      "name": "CSCI2951K",
+      "course_name": "Topics in Grounded Language for Robotics",
+      "url": "http://cs.brown.edu/courses/csci2951-k.html"
     },
     {
-      "name": "CSCI2951P"
+      "name": "CSCI2951P",
+      "course_name": "Human-Robot Interaction Seminar",
+      "url": "http://cs.brown.edu/courses/csci2951-p.html"
     },
     {
-      "name": "ENGN1630"
+      "name": "ENGN1630",
+      "url": "http://www.engin.brown.edu/courses/EN163/"
     },
     {
-      "name": "ENGN1640"
+      "name": "ENGN1640",
+      "url": "http://www.lems.brown.edu/cad/coursei2956-fs/EN164/"
     },
     {
-      "name": "ENGN2910A"
+      "name": "ENGN2910A",
+      "url": null
     },
     {
-      "name": "ENGN2911X"
+      "name": "ENGN2911X",
+      "url": null
     }
   ],
   "links": [
     {
       "source": 0,
-      "target": 0
-    },
-    {
-      "source": 0,
       "target": 1
     },
     {
@@ -288,10 +422,6 @@
     },
     {
       "source": 1,
-      "target": 1
-    },
-    {
-      "source": 1,
       "target": 0
     },
     {
@@ -312,15 +442,7 @@
     },
     {
       "source": 2,
-      "target": 2
-    },
-    {
-      "source": 2,
       "target": 25
-    },
-    {
-      "source": 3,
-      "target": 3
     },
     {
       "source": 3,
@@ -360,10 +482,6 @@
     },
     {
       "source": 4,
-      "target": 4
-    },
-    {
-      "source": 4,
       "target": 0
     },
     {
@@ -385,10 +503,6 @@
     {
       "source": 4,
       "target": 43
-    },
-    {
-      "source": 5,
-      "target": 5
     },
     {
       "source": 5,
@@ -420,10 +534,6 @@
     },
     {
       "source": 6,
-      "target": 6
-    },
-    {
-      "source": 6,
       "target": 0
     },
     {
@@ -444,10 +554,6 @@
     },
     {
       "source": 7,
-      "target": 7
-    },
-    {
-      "source": 7,
       "target": 3
     },
     {
@@ -461,10 +567,6 @@
     {
       "source": 7,
       "target": 24
-    },
-    {
-      "source": 8,
-      "target": 8
     },
     {
       "source": 8,
@@ -520,10 +622,6 @@
     },
     {
       "source": 9,
-      "target": 9
-    },
-    {
-      "source": 9,
       "target": 0
     },
     {
@@ -553,10 +651,6 @@
     {
       "source": 9,
       "target": 48
-    },
-    {
-      "source": 10,
-      "target": 10
     },
     {
       "source": 10,
@@ -612,10 +706,6 @@
     },
     {
       "source": 11,
-      "target": 11
-    },
-    {
-      "source": 11,
       "target": 0
     },
     {
@@ -665,10 +755,6 @@
     {
       "source": 11,
       "target": 67
-    },
-    {
-      "source": 12,
-      "target": 12
     },
     {
       "source": 12,
@@ -732,10 +818,6 @@
     },
     {
       "source": 13,
-      "target": 13
-    },
-    {
-      "source": 13,
       "target": 0
     },
     {
@@ -764,19 +846,11 @@
     },
     {
       "source": 14,
-      "target": 14
-    },
-    {
-      "source": 14,
       "target": 12
     },
     {
       "source": 14,
       "target": 18
-    },
-    {
-      "source": 15,
-      "target": 15
     },
     {
       "source": 15,
@@ -801,10 +875,6 @@
     {
       "source": 15,
       "target": 66
-    },
-    {
-      "source": 16,
-      "target": 16
     },
     {
       "source": 16,
@@ -844,10 +914,6 @@
     },
     {
       "source": 17,
-      "target": 17
-    },
-    {
-      "source": 17,
       "target": 18
     },
     {
@@ -872,10 +938,6 @@
     },
     {
       "source": 18,
-      "target": 18
-    },
-    {
-      "source": 18,
       "target": 12
     },
     {
@@ -897,10 +959,6 @@
     {
       "source": 18,
       "target": 51
-    },
-    {
-      "source": 19,
-      "target": 19
     },
     {
       "source": 19,
@@ -952,10 +1010,6 @@
     },
     {
       "source": 20,
-      "target": 20
-    },
-    {
-      "source": 20,
       "target": 3
     },
     {
@@ -969,10 +1023,6 @@
     {
       "source": 20,
       "target": 56
-    },
-    {
-      "source": 21,
-      "target": 21
     },
     {
       "source": 21,
@@ -993,10 +1043,6 @@
     {
       "source": 21,
       "target": 47
-    },
-    {
-      "source": 22,
-      "target": 22
     },
     {
       "source": 22,
@@ -1025,10 +1071,6 @@
     {
       "source": 22,
       "target": 39
-    },
-    {
-      "source": 23,
-      "target": 23
     },
     {
       "source": 23,
@@ -1088,10 +1130,6 @@
     },
     {
       "source": 24,
-      "target": 24
-    },
-    {
-      "source": 24,
       "target": 7
     },
     {
@@ -1124,10 +1162,6 @@
     },
     {
       "source": 25,
-      "target": 25
-    },
-    {
-      "source": 25,
       "target": 2
     },
     {
@@ -1141,10 +1175,6 @@
     {
       "source": 25,
       "target": 60
-    },
-    {
-      "source": 26,
-      "target": 26
     },
     {
       "source": 26,
@@ -1188,10 +1218,6 @@
     },
     {
       "source": 27,
-      "target": 27
-    },
-    {
-      "source": 27,
       "target": 10
     },
     {
@@ -1204,10 +1230,6 @@
     },
     {
       "source": 28,
-      "target": 28
-    },
-    {
-      "source": 28,
       "target": 17
     },
     {
@@ -1217,10 +1239,6 @@
     {
       "source": 28,
       "target": 39
-    },
-    {
-      "source": 29,
-      "target": 29
     },
     {
       "source": 29,
@@ -1244,19 +1262,11 @@
     },
     {
       "source": 30,
-      "target": 30
-    },
-    {
-      "source": 30,
       "target": 29
     },
     {
       "source": 30,
       "target": 62
-    },
-    {
-      "source": 31,
-      "target": 31
     },
     {
       "source": 31,
@@ -1269,10 +1279,6 @@
     {
       "source": 31,
       "target": 40
-    },
-    {
-      "source": 32,
-      "target": 32
     },
     {
       "source": 32,
@@ -1288,10 +1294,6 @@
     },
     {
       "source": 33,
-      "target": 33
-    },
-    {
-      "source": 33,
       "target": 0
     },
     {
@@ -1301,10 +1303,6 @@
     {
       "source": 33,
       "target": 43
-    },
-    {
-      "source": 34,
-      "target": 34
     },
     {
       "source": 34,
@@ -1324,10 +1322,6 @@
     },
     {
       "source": 35,
-      "target": 35
-    },
-    {
-      "source": 35,
       "target": 3
     },
     {
@@ -1340,10 +1334,6 @@
     },
     {
       "source": 36,
-      "target": 36
-    },
-    {
-      "source": 36,
       "target": 25
     },
     {
@@ -1356,10 +1346,6 @@
     },
     {
       "source": 37,
-      "target": 37
-    },
-    {
-      "source": 37,
       "target": 25
     },
     {
@@ -1369,10 +1355,6 @@
     {
       "source": 37,
       "target": 60
-    },
-    {
-      "source": 38,
-      "target": 38
     },
     {
       "source": 38,
@@ -1381,10 +1363,6 @@
     {
       "source": 38,
       "target": 44
-    },
-    {
-      "source": 39,
-      "target": 39
     },
     {
       "source": 39,
@@ -1397,10 +1375,6 @@
     {
       "source": 39,
       "target": 28
-    },
-    {
-      "source": 40,
-      "target": 40
     },
     {
       "source": 40,
@@ -1420,10 +1394,6 @@
     },
     {
       "source": 41,
-      "target": 41
-    },
-    {
-      "source": 41,
       "target": 0
     },
     {
@@ -1432,10 +1402,6 @@
     },
     {
       "source": 41,
-      "target": 43
-    },
-    {
-      "source": 43,
       "target": 43
     },
     {
@@ -1480,10 +1446,6 @@
     },
     {
       "source": 44,
-      "target": 44
-    },
-    {
-      "source": 44,
       "target": 3
     },
     {
@@ -1504,10 +1466,6 @@
     },
     {
       "source": 45,
-      "target": 45
-    },
-    {
-      "source": 45,
       "target": 6
     },
     {
@@ -1524,19 +1482,11 @@
     },
     {
       "source": 46,
-      "target": 46
-    },
-    {
-      "source": 46,
       "target": 0
     },
     {
       "source": 46,
       "target": 8
-    },
-    {
-      "source": 47,
-      "target": 47
     },
     {
       "source": 47,
@@ -1572,10 +1522,6 @@
     },
     {
       "source": 48,
-      "target": 48
-    },
-    {
-      "source": 48,
       "target": 0
     },
     {
@@ -1596,19 +1542,11 @@
     },
     {
       "source": 50,
-      "target": 50
-    },
-    {
-      "source": 50,
       "target": 12
     },
     {
       "source": 50,
       "target": 15
-    },
-    {
-      "source": 51,
-      "target": 51
     },
     {
       "source": 51,
@@ -1628,10 +1566,6 @@
     },
     {
       "source": 52,
-      "target": 52
-    },
-    {
-      "source": 52,
       "target": 11
     },
     {
@@ -1640,10 +1574,6 @@
     },
     {
       "source": 53,
-      "target": 53
-    },
-    {
-      "source": 53,
       "target": 19
     },
     {
@@ -1669,10 +1599,6 @@
     {
       "source": 53,
       "target": 58
-    },
-    {
-      "source": 54,
-      "target": 54
     },
     {
       "source": 54,
@@ -1704,10 +1630,6 @@
     },
     {
       "source": 55,
-      "target": 55
-    },
-    {
-      "source": 55,
       "target": 19
     },
     {
@@ -1733,10 +1655,6 @@
     {
       "source": 55,
       "target": 58
-    },
-    {
-      "source": 56,
-      "target": 56
     },
     {
       "source": 56,
@@ -1772,10 +1690,6 @@
     },
     {
       "source": 57,
-      "target": 57
-    },
-    {
-      "source": 57,
       "target": 19
     },
     {
@@ -1800,10 +1714,6 @@
     },
     {
       "source": 57,
-      "target": 58
-    },
-    {
-      "source": 58,
       "target": 58
     },
     {
@@ -1845,18 +1755,10 @@
     {
       "source": 58,
       "target": 57
-    },
-    {
-      "source": 59,
-      "target": 59
     },
     {
       "source": 59,
       "target": 17
-    },
-    {
-      "source": 60,
-      "target": 60
     },
     {
       "source": 60,
@@ -1869,10 +1771,6 @@
     {
       "source": 60,
       "target": 37
-    },
-    {
-      "source": 61,
-      "target": 61
     },
     {
       "source": 61,
@@ -1892,10 +1790,6 @@
     },
     {
       "source": 62,
-      "target": 62
-    },
-    {
-      "source": 62,
       "target": 19
     },
     {
@@ -1908,18 +1802,10 @@
     },
     {
       "source": 63,
-      "target": 63
-    },
-    {
-      "source": 63,
       "target": 10
     },
     {
       "source": 63,
-      "target": 64
-    },
-    {
-      "source": 64,
       "target": 64
     },
     {
@@ -1940,10 +1826,6 @@
     },
     {
       "source": 65,
-      "target": 65
-    },
-    {
-      "source": 65,
       "target": 11
     },
     {
@@ -1961,10 +1843,6 @@
     {
       "source": 65,
       "target": 51
-    },
-    {
-      "source": 66,
-      "target": 66
     },
     {
       "source": 66,
@@ -2004,10 +1882,6 @@
     },
     {
       "source": 67,
-      "target": 67
-    },
-    {
-      "source": 67,
       "target": 11
     },
     {
@@ -2024,10 +1898,6 @@
     },
     {
       "source": 68,
-      "target": 68
-    },
-    {
-      "source": 68,
       "target": 69
     },
     {
@@ -2045,10 +1915,6 @@
     {
       "source": 68,
       "target": 26
-    },
-    {
-      "source": 69,
-      "target": 69
     },
     {
       "source": 69,
@@ -2072,10 +1938,6 @@
     },
     {
       "source": 70,
-      "target": 70
-    },
-    {
-      "source": 70,
       "target": 68
     },
     {
@@ -2093,10 +1955,6 @@
     {
       "source": 70,
       "target": 26
-    },
-    {
-      "source": 71,
-      "target": 71
     },
     {
       "source": 71,

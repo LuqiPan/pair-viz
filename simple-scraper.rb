@@ -39,12 +39,11 @@ end
 def get_nodes
   $node_info.map do |course_number, course_url|
     if (course_url.nil? || course_url.empty? || course_url.include?("http://"))
-      {name: course_number}
+      {name: course_number, url: course_url}
     else
       url = DOMAIN + course_url
       html = Nokogiri::HTML(HTTParty.get(url))
       course_name = html.css('h2').children.first.andand.content
-      course_name = ""
       {name: course_number, course_name: course_name, url: url}
     end
   end.select { |e| !e.nil? }.sort_by { |e| e[:name] }
