@@ -64,12 +64,6 @@ function run(error, json) {
         .on("mouseover", fade(.1))
         .on("mouseout", fade(1));
 
-    function getIndex(o) {
-        json.nodes.forEach(function(d, i) {
-            if (d.name == o.name) return i;
-        });
-    }
-
     function fade(opacity) {
         return function(d) {
             node.style("stroke-opacity", function(o) {
@@ -80,6 +74,18 @@ function run(error, json) {
 
             link.style("stroke-opacity", function(o) {
                 return o.source === d || o.target === d ? 1 : opacity;
+            });
+
+            link.style("stroke", function(o) {
+                if (opacity == 0.1) {
+                    return o.source === d || o.target === d ? "grey" : "#EEE";
+                }
+            });
+
+            link.style("stroke-dasharray", function(o) {
+                if (opacity == 0.1) {
+                    return o.source === d || o.target === d ? "none" : "5,10,5";
+                }
             });
         };
     }
