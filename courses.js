@@ -42,6 +42,11 @@ function run(error, json) {
 
     function fade(opacity) {
         return function(d) {
+            if (d3.select(this).select(".show")[0][0] == null ) {
+                d3.select(this).select(".hidden").attr("class", "show");
+            } else {
+                d3.select(this).select(".show").attr("class", "hidden");
+            }
             node.style("stroke-opacity", function(o) {
                 thisOpacity = isConnected(d, o) ? 1 : opacity;
                 this.setAttribute('fill-opacity', thisOpacity);
@@ -72,6 +77,12 @@ function run(error, json) {
         .attr("dx", 12)
         .attr("dy", ".35em")
         .text(function(d) { return d.name });
+
+    node.append("text")
+        .attr("dx", 12)
+        .attr("dy", "-1em")
+        .attr("class", "hidden")
+        .text("Welcome");
 
     force.on("tick", function() {
         link.attr("x1", function(d) { return d.source.x; })
