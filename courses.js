@@ -33,6 +33,15 @@ function build_dependency(nodes, links) {
 }
 
 function run(error, json) {
+    var linkedByIndex = {};
+    json.links.forEach(function(d) {
+        linkedByIndex[d.source + "," + d.target] = 1;
+    });
+
+    function isConnected(a, b) {
+        return linkedByIndex[a.index + "," + b.index] || linkedByIndex[b.index + "," + a.index] || a.index == b.index;
+    };
+
     /* force will build the index internally */
     force
         .nodes(json.nodes)
@@ -51,14 +60,29 @@ function run(error, json) {
         .data(json.nodes)
         .enter().append("g")
         .attr("class", "node")
-/*
-        .on("mouseover", function(d) {
-            var related = get_related_courses(d, dependencies);
-            console.log(related);
-            //highlight(related);
-        })
-*/
-        .call(force.drag);
+        .call(force.drag)
+        .on("mouseover", fade(.1))
+        .on("mouseout", fade(1));
+
+    function getIndex(o) {
+        json.nodes.forEach(function(d, i) {
+            if (d.name == o.name) return i;
+        });
+    }
+
+    function fade(opacity) {
+        return function(d) {
+            node.style("stroke-opacity", function(o) {
+                thisOpacity = isConnected(d, o) ? 1 : opacity;
+                this.setAttribute('fill-opacity', thisOpacity);
+                return thisOpacity;
+            });
+
+            link.style("stroke-opacity", function(o) {
+                return o.source === d || o.target === d ? 1 : opacity;
+            });
+        };
+    }
 
     node.append("circle")
         .attr("r", 6);
