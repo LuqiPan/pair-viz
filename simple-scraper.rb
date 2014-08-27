@@ -37,28 +37,34 @@ def add_node(cell)
 end
 
 def get_nodes
-  $node_info.map do |course_name, course_url|
-    url = DOMAIN + course_url
-    html = Nokogiri::HTML(HTTParty.get(url))
-    {}
-  end
+  $node_info.map do |course_number, course_url|
+    if (course_url.nil? || course_url.empty? || course_url.include?("http://"))
+      {name: course_number}
+    else
+      url = DOMAIN + course_url
+      html = Nokogiri::HTML(HTTParty.get(url))
+      course_name = html.css('h2').children.first.andand.content
+      course_name = ""
+      {name: course_number, course_name: course_name, url: url}
+    end
+  end.select { |e| !e.nil? }.sort_by { |e| e[:name] }
 end
 
-def get_nodes(pairs_hash)
-  pairs_hash
-    .inject([]) { |node_list, (key, value)| node_list + value.unshift(key) }
-    .uniq.sort.map { |e| { name: e } }
+def get_node_indices(nodes)
+  node_indices = {}
+  nodes.each_with_index { |node, index| node_indices[node[:name]] = index }
+  node_indices
 end
 
-def get_node_index(node_name, nodes)
-  nodes.find_index { |n| n[:name] == node_name }
+def get_node_index(node_name, node_indices)
+  node_indices[node_name]
 end
 
-def get_edges(pairs_hash, nodes)
+def get_edges(pairs_hash, node_indices)
   pairs_hash.inject([]) do |edge_list, (key, value)|
-    source = get_node_index(key, nodes)
+    source = get_node_index(key, node_indices)
     edge_list + value.map do |e|
-      { source: source, target: get_node_index(e, nodes) }
+      { source: source, target: get_node_index(e, node_indices) }
     end
   end
 end
@@ -72,9 +78,11 @@ eng_pairs = eng_table.children[1..-1]
 
 cs_pairs_hash = get_pairs(cs_pairs)
 eng_pairs_hash = get_pairs(eng_pairs)
-binding.pry
+
 pairs_hash = cs_pairs_hash.merge(eng_pairs_hash)
-nodes = get_nodes(pairs_hash)
-edges = get_edges(pairs_hash, nodes)
+nodes = get_nodes
+node_indices = get_node_indices(nodes)
+edges = get_edges(pairs_hash, node_indices)
+binding.pry
 
 File.open('pairs.json', 'w') { |file| file.write(JSON.pretty_generate(nodes: nodes, links: edges)) }
