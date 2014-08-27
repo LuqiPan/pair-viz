@@ -2,21 +2,46 @@ require 'pry'
 require 'httparty'
 require 'nokogiri'
 require 'json'
+require 'andand'
 
-approved_pairs_url = 'http://cs.brown.edu/degrees/undergrad/concentrations/approvedpairs/'
+DOMAIN = 'http://cs.brown.edu'
+approved_pairs_url = DOMAIN + '/degrees/undergrad/concentrations/approvedpairs/'
 
 def get_pairs(table_rows)
   pairs = {}
   cur_course = nil
   table_rows.each do |row|
     next if row.content == "\n"
-    cur_course = row.children.first.content.gsub("-", "") unless row.children.first.content.empty?
+    unless row.children.first.content.empty?
+      first_cell = row.children.first
+      cur_course = first_cell.content.gsub("-", "")
+      add_node(first_cell)
+    end
     children = row.children[1..-1]
+    children.each { |c| add_node(c) }
     pairs[cur_course] = pairs.fetch(cur_course, []) +
       children.map(&:content).map { |e| e.gsub("-", "") }
         .select { |e| !e.empty? }
   end
   pairs
+end
+
+$node_info = {}
+def add_node(cell)
+  course_name = cell.content.gsub("-", "")
+  return if course_name.empty?
+  course_url = cell.css('a').first.andand['href']
+  if $node_info[course_name].nil?
+    $node_info[course_name] = course_url
+  end
+end
+
+def get_nodes
+  $node_info.map do |course_name, course_url|
+    url = DOMAIN + course_url
+    html = Nokogiri::HTML(HTTParty.get(url))
+    {}
+  end
 end
 
 def get_nodes(pairs_hash)
@@ -47,6 +72,7 @@ eng_pairs = eng_table.children[1..-1]
 
 cs_pairs_hash = get_pairs(cs_pairs)
 eng_pairs_hash = get_pairs(eng_pairs)
+binding.pry
 pairs_hash = cs_pairs_hash.merge(eng_pairs_hash)
 nodes = get_nodes(pairs_hash)
 edges = get_edges(pairs_hash, nodes)
